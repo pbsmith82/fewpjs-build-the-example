@@ -1,8 +1,16 @@
 // Defining text characters for the empty and full hearts for you to use later.
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
-
+const errorModal = document.querySelector("#modal")
 // Your JavaScript code goes here!
+//------------------------------------------------------------------------------
+// Start Hiding Error Modal
+function hideModal() {
+ errorModal.className = "hidden"
+}
+hideModal()
+// End Hiding Error Modal
+//------------------------------------------------------------------------------
 
 
 
